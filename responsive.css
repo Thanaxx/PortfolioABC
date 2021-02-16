@@ -1,0 +1,215 @@
+@media (max-width: 700px){
+    .main-page > section{
+        padding: 30px 40px;
+    }
+    /*nav hide*/
+    .links a{
+        display: none;
+    }
+    .socIcon i{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .menu{
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    .menu i{
+        color: #ffffff;
+    }
+    #hamburger.active{
+        color: #7289ab;
+    }
+    .sidebarLinks{
+        background-color: #7289ab;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 0%;
+        z-index: 2;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+    .sidebarLinks a{
+        text-decoration: none;
+        color: #e7e7e7;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+        margin: 85px 25px 20px 25px;
+        position: relative;
+    }
+    .sidebarLinks a:hover{
+        background-color: #e7e7e7;
+        color: #7289ab;
+    }
+
+    /*close hover*/
+    .closeside{
+        background-color: #7289ab;
+        float: right;
+        margin: 10px 20px;
+        font-size: 50px;
+        color: #e7e7e7;
+        font-weight: lighter;
+        cursor: pointer;
+    }
+    .closeside:hover{
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    /* COVERPAGE STYLE IN MOBILE VIEW*/
+    .myImage{
+        display: none;
+    }
+    .coverpage{
+        display: block;
+        background-image: url(./img/mei.png);
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .caption{
+        padding-top: 60px;   
+    }
+    .caption span{
+        font-size: 55px;
+        margin-left: 80px;
+        text-align: left;
+        letter-spacing: 4px;
+    }
+    .caption p{
+        margin-left: 80px;
+        color: #51515F;
+        font-weight: 16px;
+        font-size: 16px;
+    }
+    .resume{
+        text-align: left;
+        margin: 15px 80px;
+    }
+    .resume button{
+        padding: 6px 25px;
+        font-size: 14px;
+    }
+
+    /*social media icons*/
+    .socIcon-resp{
+        text-align: center;
+        margin-top: 300px;
+    }
+    .socIcon-resp i{
+        padding: 5px;
+        background-color: #7289ab;
+        border-radius: 100px;
+        box-shadow: 0px 3px 4px grey;
+        color: #EFEBEE;
+        margin: 0px 7px;
+        cursor: pointer;
+    }
+
+    /*ABOUT*/
+    .about-section{
+        margin-top: 40px;
+        min-height: 100vh;
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+    .avatar2 img{
+        width: 100%;
+        height: 400px;
+    }
+    .avatar2{
+        padding: 30px;
+    }
+    .about-description h1{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /*WORK SECTION STYLE*/
+/*WORKS*/
+
+    .myWorks{
+        flex-direction: column;
+    }
+    .myWorks > div{
+        width: 100%;
+        height: 200px;
+        margin: 15px 0px;
+    }
+    .workHeader h1::before{
+        margin-left: 0px;
+        width: 100%;
+        
+    }
+    .seemoreWorks button{
+        width: 40%;
+    }
+    .addWorks{
+        flex-direction: column;
+    }
+    .addWorks > div{
+        width: 100%;
+        height: 200px;
+        margin: 15px 0px;
+    }
+    /*CONTACTS*/
+
+     /*contacts-section*/
+     .contacts-section{
+        padding: 0px 20px;
+        display: block;
+    }
+    .blobs, .avatarB{
+        display: none;
+    }
+    .contact-form{
+        padding-top: 80px;
+    }
+
+    /*FOOTER*/
+    footer img{
+        width: 23%;
+    }
+
+    .preload-page h1{
+        position: relative;
+        font-size: 90px;
+        color: #ffffff;
+        /* -webkit-text-stroke: 0.1vw #424242; */
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    /* TECHNOLOGIES */
+    .tech > div{
+        width: 100%;
+        height: 120px;
+        margin: 20px 0px;
+    }
+    .technologies-part h1{
+        font-size: 20px;
+    }
+    .technologies-part h1::before{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+}
+
+@media (min-width: 700px){
+    .responsive-menu{
+        display: none;
+    }
+    .socIcon-resp{
+        display: none;
+    }
+}

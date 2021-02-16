@@ -1,0 +1,55 @@
+
+/*CONTACTS*/
+.contacts-section{
+    min-height: 100vh;
+    display: flex;
+    padding-top: 90px;
+}
+.contacts-section > div{
+    flex: 1;
+}
+.contact-form h1{
+    font-family: Roboto;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 4px;
+    color: transparent;
+    background-color: #696969;
+    text-shadow: 0px 2px 5px #7289AB;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.contact-form{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #616161dc;
+}
+.contact-form input, textarea{
+    width: 100%;
+    padding: 6px 8px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #727A9C;
+    margin-bottom: 10px;
+    color: #3a3a3a;
+}
+.sendMessage{
+    width: 100%;
+    text-align: center;
+}
+.sendMessage button{
+    padding: 8px 10px;
+    cursor: pointer;
+    background-color: #727A9C;
+    border: none;
+    outline: none;
+    color: #ECECEC;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px #808080c0;
+    margin-top: 20px;
+}
